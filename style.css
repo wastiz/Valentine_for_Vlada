@@ -18,6 +18,35 @@ body {
     width: 99vh;
     height: 99vh;
 }
+@media only screen and (max-width: 600px) {
+    /* Ваши стили для телефонов здесь */
+    body {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;;
+    }
+    p {
+        font-size: 15px;
+    }
+    .second-part {
+        width: 100%;
+        height: auto;
+    }
+    .second-part img {
+        width: 200px;
+    }
+    .fourh-part {
+        margin-top: 180px;
+        padding-bottom: 20px;
+    }
+}
 .main-text {
     color: white;
 }
